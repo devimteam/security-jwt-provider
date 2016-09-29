@@ -1,0 +1,23 @@
+{
+  "type": "library",
+  "name": "devimteam/security-jwt-provider",
+  "description" : "Silex Security JWT Service Provider",
+
+  "autoload": {
+    "psr-4": {
+      "Devimteam\\Provider\\SecurityJwtServiceProvider\\" : "src"
+    }
+  },
+
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0.7",
+    "silex/silex": "~2.0.3-DEV",
+    "firebase/php-jwt": "~3.0",
+    "symfony/security": "~3.0"
+  },
+
+  "require-dev": {
+    "codeception/codeception": "^2.2"
+  }
+}
