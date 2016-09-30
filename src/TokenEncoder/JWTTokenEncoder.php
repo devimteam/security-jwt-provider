@@ -1,10 +1,10 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\TokenEncoder;
+namespace Devim\Provider\SecurityJwtServiceProvider\TokenEncoder;
 
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenException;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenNotDecodedException;
-use Devimteam\Provider\SecurityJwtServiceProvider\User\UserInterface;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenException;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenNotDecodedException;
+use Devim\Provider\SecurityJwtServiceProvider\User\UserInterface;
 use Firebase\JWT\BeforeValidException;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;

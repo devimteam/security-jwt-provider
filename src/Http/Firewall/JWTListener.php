@@ -1,10 +1,10 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Firewall;
 
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenException;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Token\JWTToken;
-use Devimteam\Provider\SecurityJwtServiceProvider\TokenEncoder\TokenEncoderInterface;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception\TokenException;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Token\JWTToken;
+use Devim\Provider\SecurityJwtServiceProvider\TokenEncoder\TokenEncoderInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\Security\Core\Authentication\AuthenticationManagerInterface;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;

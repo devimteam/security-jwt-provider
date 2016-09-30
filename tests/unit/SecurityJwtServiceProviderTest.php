@@ -1,10 +1,10 @@
 <?php
 
 use Silex\Application;
-use Devimteam\Provider\SecurityJwtServiceProvider\SecurityJwtServiceProvider;
-use Devimteam\Provider\SecurityJwtServiceProvider\TokenEncoder\JWTTokenEncoder;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\JWTListener;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\EntryPoint\JWTAuthenticationEntryPoint;
+use Devim\Provider\SecurityJwtServiceProvider\SecurityJwtServiceProvider;
+use Devim\Provider\SecurityJwtServiceProvider\TokenEncoder\JWTTokenEncoder;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\JWTListener;
+use Devim\Provider\SecurityJwtServiceProvider\Http\EntryPoint\JWTAuthenticationEntryPoint;
 use Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager;
 use Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage;

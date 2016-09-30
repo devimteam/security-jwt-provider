@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Logout;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Logout;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

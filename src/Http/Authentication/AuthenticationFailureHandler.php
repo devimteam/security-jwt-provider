@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Authentication;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Authentication;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

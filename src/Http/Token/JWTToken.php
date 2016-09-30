@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Token;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Token;
 
 use Symfony\Component\Security\Core\Authentication\Token\AbstractToken;
 

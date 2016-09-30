@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\User;
+namespace Devim\Provider\SecurityJwtServiceProvider\User;
 
 use Symfony\Component\Security\Core\User\UserInterface as BaseUserInterface;
 

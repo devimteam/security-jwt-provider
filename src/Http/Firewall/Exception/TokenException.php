@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\Exception;
 
 /**
  * Class TokenException

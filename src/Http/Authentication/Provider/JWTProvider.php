@@ -1,8 +1,8 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Authentication\Provider;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Authentication\Provider;
 
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Token\JWTToken;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Token\JWTToken;
 use Symfony\Component\Security\Core\Authentication\Provider\AuthenticationProviderInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Exception\BadCredentialsException;

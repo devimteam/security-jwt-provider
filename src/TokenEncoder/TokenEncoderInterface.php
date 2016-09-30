@@ -1,6 +1,6 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\TokenEncoder;
+namespace Devim\Provider\SecurityJwtServiceProvider\TokenEncoder;
 
 interface TokenEncoderInterface
 {

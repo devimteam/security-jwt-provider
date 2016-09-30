@@ -1,11 +1,11 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider;
+namespace Devim\Provider\SecurityJwtServiceProvider;
 
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Authentication\Provider\JWTProvider;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\EntryPoint\JWTAuthenticationEntryPoint;
-use Devimteam\Provider\SecurityJwtServiceProvider\Http\Firewall\JWTListener;
-use Devimteam\Provider\SecurityJwtServiceProvider\TokenEncoder\JWTTokenEncoder;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Authentication\Provider\JWTProvider;
+use Devim\Provider\SecurityJwtServiceProvider\Http\EntryPoint\JWTAuthenticationEntryPoint;
+use Devim\Provider\SecurityJwtServiceProvider\Http\Firewall\JWTListener;
+use Devim\Provider\SecurityJwtServiceProvider\TokenEncoder\JWTTokenEncoder;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 

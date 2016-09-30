@@ -1,8 +1,8 @@
 <?php
 
-namespace Devimteam\Provider\SecurityJwtServiceProvider\Http\Authentication;
+namespace Devim\Provider\SecurityJwtServiceProvider\Http\Authentication;
 
-use Devimteam\Provider\SecurityJwtServiceProvider\User\UserInterface;
+use Devim\Provider\SecurityJwtServiceProvider\User\UserInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
