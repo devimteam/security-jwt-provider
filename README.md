@@ -9,7 +9,7 @@ Adds security JWT service provider for your application
 #### Install via composer
 
 ```
-$ composer require devimteam/security-jwt-provider
+$ composer require devimteam/silex-security-jwt-provider
 ```
 
 ## Use-cases
