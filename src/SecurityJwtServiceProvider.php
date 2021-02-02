@@ -54,8 +54,13 @@ class SecurityJwtServiceProvider implements ServiceProviderInterface
                 return new JWTProvider($container['security.user_provider.' . $name]);
             };
 
-            $container['security.authentication_listener.' . $name . '.jwt'] = function () use ($container) {
-                return $container['security.jwt.authentication_listener'];
+            $container['security.authentication_listener.' . $name . '.jwt'] = function () use ($container, $name) {
+                return new JWTListener(
+                    $container['security.token_storage'],
+                    $container['security.authentication_manager'],
+                    $container['security.jwt.encoder'],
+                    $container['security.' . $name .'.jwt.options'] ?? $container['security.jwt.options']
+                );
             };
             $container['security.authentication_provider.' . $name . '.jwt'] = function () use ($container, $name) {
                 return $container['security.jwt.authentication_provider.'. $name];
